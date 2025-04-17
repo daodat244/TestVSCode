@@ -76,7 +76,7 @@
             <p>ĐỒNG HỒ THỜI GIAN <?php echo $current_time; ?></p>
         </div>
         <div class="content">
-            <p>TIẾN ĐẠT IU FUN</p>
+            <p>TIẾN ĐẠT IU FUNN</p>
         </div>
     </div>
 
