@@ -9,41 +9,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple PHP Box</title>
     <style>
-        /* CSS để tạo hộp */
-        .container {
-            width: 50%;
-            margin: 0 auto;
-            padding: 20px;
-            border: 2px solid #000;
-            text-align: center;
-            background-color: #f4f4f4;
+        /* Reset CSS cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        h1 {
-            font-size: 24px;
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e5e5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             color: #333;
         }
 
+        .container {
+            width: 70%;
+            max-width: 600px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #5d5d5d;
+        }
+
         .time {
-            font-size: 20px;
+            font-size: 24px;
             margin: 20px 0;
+            color: #007bff;
         }
 
         .content {
             font-size: 18px;
             color: #555;
+            line-height: 1.6;
         }
+
+        /* Thêm hiệu ứng cho hộp */
+        .container:hover {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsive: Thích ứng với các màn hình nhỏ */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Title of the Page</h1>
+        <h1>Welcome to My Simple PHP Box</h1>
         <div class="time">
             <p>ĐỒNG HỒ THỜI GIAN <?php echo $current_time; ?></p>
         </div>
         <div class="content">
-            <p>Cấm chỉ Tiến Đạt</p>
+            <p>TIẾN ĐẠT IU FUN</p>
         </div>
     </div>
 
