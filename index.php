@@ -73,7 +73,7 @@
     <div class="container">
         <h1>Đồng Văn Hồ</h1>
         <div class="time">
-            <p>Time Stone <?php echo $current_time; ?></p>
+            <p>Time Stonee <?php echo $current_time; ?></p>
         </div>
         <div class="content">
             <p>LOKI</p>
