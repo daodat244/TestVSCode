@@ -76,7 +76,7 @@
             <p>Time Stone <?php echo $current_time; ?></p>
         </div>
         <div class="content">
-            <p>TIẾN ĐẠT IU FUNN</p>
+            <p>LOKI</p>
         </div>
     </div>
 
