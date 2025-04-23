@@ -73,7 +73,7 @@
     <div class="container">
         <h1>Welcome to My Simple PHP Box</h1>
         <div class="time">
-            <p>ĐỒNG HỒ THỜI GIAN <?php echo $current_time; ?></p>
+            <p>Time Stone <?php echo $current_time; ?></p>
         </div>
         <div class="content">
             <p>TIẾN ĐẠT IU FUNN</p>
