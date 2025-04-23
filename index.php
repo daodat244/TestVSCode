@@ -71,7 +71,7 @@
 <body>
 
     <div class="container">
-        <h1>Đồng hồ sai</h1>
+        <h1>Đồng hồ siêu sai</h1>
         <div class="time">
             <p>Time Stone <?php echo $current_time; ?></p>
         </div>
