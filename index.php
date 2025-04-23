@@ -45,7 +45,7 @@
         .time {
             font-size: 24px;
             margin: 20px 0;
-            color: #007bff;
+            color:rgb(255, 0, 0);
         }
 
         .content {
