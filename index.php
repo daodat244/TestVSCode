@@ -72,6 +72,7 @@
 
     <div class="container">
         <h1>Đồng Văn Hồ</h1>
+        <h1>Hồ Văn Đồng</h1>
         <div class="time">
             <p>Time Stone <?php echo $current_time; ?></p>
         </div>
